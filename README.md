@@ -29,3 +29,20 @@ const { keep_alive } = require("./keep_alive");
 
 //-------------------------------- CODE END ----------------------------------------| 
 ```
+Way 2
+```
+New File, html.js with the code ---------------->
+
+const http = require("http");
+http.createServer((_, res) => res.end("Bot is Online")).listen(8080)
+
+
+-------------end code----------->
+
+
+and add the following line to the main file of your bot ---------------->
+require ("./html.js");
+
+
+
+
