@@ -1,4 +1,6 @@
 What the title says... here it is. Can also keep any NodeJS script alive, no matter the host.
+
+NOTE: If your server provider gives a random port, use method 1, replace `const port = 3000;` with `const port = process.env.PORT || 3000;`
 ```
 //Create a new file called keep_alive.js in the same folder as the main file of your bot and paste this code there.
 
