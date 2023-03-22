@@ -1,4 +1,4 @@
-What the title says... here it is. 
+What the title says... here it is. Can also keep any NodeJS script alive, no matter the host.
 ```
 //Create a new file called keep_alive.js in the same folder as the main file of your bot and paste this code there.
 
